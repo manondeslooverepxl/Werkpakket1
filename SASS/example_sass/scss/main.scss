@@ -1,0 +1,76 @@
+/* Kleurenpallet */
+
+$color1: #deb8fc;
+$color2: #666538;
+$color3: #bab653;
+$color4: #e9cf81;
+$color5: #e9cf81;
+$color6: #f4ece5;
+$color7: #f98638;
+
+
+/* Fontsizes */
+
+$lg: 15px;
+$md: 10px;
+$sm: 6px;
+
+
+/* Navigatie */
+nav {
+  img {
+    width: 8rem;
+    height: auto;
+  }
+
+
+  /* Main */
+
+  p {
+    color: greenyellow;
+  }
+
+  /* Footer */
+
+  .footer {
+    font-size: $md;
+  background-color: $color7;
+    text-align: center;
+
+  }
+}
+  .nav {
+    background-color: $color1;
+  }
+
+  nav {
+    ul li {
+      display: none;
+    }
+
+    a {
+      font-size: $lg;
+      color: $var2;
+    }
+
+    a:hover {
+      color: $var1;
+    }
+  }
+
+  .banner {
+    font-size: $lg;
+    color: $var2;
+    text-align: center;
+  }
+
+  h1 {
+    color: $var2;
+  }
+}
+/*
+  .footer {
+    font-size: $md;
+    color: $var2;
+    text-align: center;
+  }
